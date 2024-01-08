@@ -8,12 +8,64 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/AudioView',
+    name: 'audio',
+    component: () => import('../views/AudioView.vue')
+  },
+  {
+    path: '/BrandingView',
+    name: 'branding',
+    component: () => import('../views/BrandingView.vue')
+  },
+  {
+    path: '/CodingView',
+    name: 'coding',
+    component: () => import('../views/CodingView.vue')
+  },
+  {
+    path: '/IllustrationView',
+    name: 'illustration',
+    component: () => import('../views/IllustrationView.vue')
+  },
+  {
+    path: '/UXUIView',
+    name: 'uxui',
+    component: () => import('../views/UXUIView.vue')
+  },
+  {
+    path: '/VideoView',
+    name: 'video',
+    component: () => import('../views/VideoView.vue')
+  },
+  {
+    path: '/OuchyNumberView',
+    name: 'ouchy',
+    component: () => import('../views/OuchyNumberView.vue')
+  },
+  {
+    path: '/BloodWheelScore',
+    name: 'bloodWheel',
+    component: () => import('../views/BloodWheelView.vue')
+  },
+  {
+    path: '/SpinalFluidPongView',
+    name: 'spinePong',
+    component: () => import('../views/SpinalFluidPongView.vue')
+  },
+  {
+    path: '/SpinalFluidPongViewVS',
+    name: 'spinePongVS',
+    component: () => import('../views/SpinalFluidPongViewVS.vue')
+  },
+  {
+    path: '/PlinkoCounterView',
+    name: 'plinko',
+    component: () => import('../views/PlinkoCounterView.vue')
+  },
+  {
+    path: '/TwoTruthsOneDieView',
+    name: 'TwoTruthsOneDie',
+    component: () => import('../views/TwoTruthsOneDieView.vue')
   }
 ]
 

@@ -1,13 +1,13 @@
 <template>
   <div class="home">
-    <!-- <div class="fadein">
+    <div class="fadein">
       <img class="logo" id="f3" src="../assets/Logo-Stencil-on.png">
     <img class="logo" id="f2" src="../assets/Logo-Stencil-on.png">
     <img class="logo" id="f1" src="../assets/Logo-Stencil-on.png">
     <div class="big">
       <img class="logo1" id="f4" src="../assets/Logo-Stencil-on.png">
     </div>
-  </div> -->
+  </div>
   </div>
 </template>
 
