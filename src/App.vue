@@ -1,13 +1,21 @@
 <template>
   <nav>
     <router-link to="/">Home | </router-link>
-    <router-link to="/BloodWheelScore">Blood Wheel Counter | </router-link>
+    <!-- <router-link to="/BloodWheelScore">Blood Wheel Counter | </router-link>
     <router-link to="/OuchyNumberView">Ouchy Number | </router-link>
     <router-link to="/PlinkoCounterView">Plink! oh no | </router-link>
     <router-link to="/SpinalFluidPongView">Spinal Fluid Pong | </router-link>
     <router-link to="/SpinalFluidPongViewVS">Spinal Fluid Pong VS | </router-link>
-    <router-link to="/TwoTruthsOneDieView">Two Truths One Die |  </router-link>
-    <router-link to="/IllustrationView">Illustration </router-link>
+    <router-link to="/TwoTruthsOneDieView">Two Truths One Die |  </router-link> -->
+    <router-link to="/IllustrationView">Illustration | </router-link>
+    <router-link to="/AboutView">About | </router-link>
+    <router-link to="/BrandingView">Branding | </router-link>
+    <router-link to="/CodingView">Coding | </router-link>
+    <router-link to="/ProjectPlanningView">Project Planning | </router-link>
+    <router-link to="/UXUIView">UX/UI | </router-link>
+    <router-link to="/VideoView">Video | </router-link>
+    <router-link to="/AudioView">Audio </router-link>
+
     <theme-button />
   </nav>
   <router-view/>

@@ -2,10 +2,10 @@
   <div>
     <h1>ILLUSTRATION</h1>
     <div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+  <a target="_blank" href="../assets/Artwork/Illustration/Maria_Illustration2.jpeg">
+    <img src="../assets/Artwork/Illustration/Maria_Illustration2.jpeg" alt="Cinque Terre" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">Flamenco</div>
 </div>
   </div>
 </template>

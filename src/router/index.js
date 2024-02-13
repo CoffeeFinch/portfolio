@@ -8,6 +8,16 @@ const routes = [
     component: HomeView
   },
   {
+    path: '/AboutView',
+    name: 'about',
+    component: () => import('../views/AboutView.vue')
+  },
+  {
+    path: '/ProjectPlanningView',
+    name: 'project planning',
+    component: () => import('../views/ProjectPlanningView.vue')
+  },
+  {
     path: '/AudioView',
     name: 'audio',
     component: () => import('../views/AudioView.vue')
@@ -40,32 +50,37 @@ const routes = [
   {
     path: '/OuchyNumberView',
     name: 'ouchy',
-    component: () => import('../views/OuchyNumberView.vue')
+    component: () => import('../views/ZeekGame/OuchyNumberView.vue')
   },
   {
     path: '/BloodWheelScore',
     name: 'bloodWheel',
-    component: () => import('../views/BloodWheelView.vue')
+    component: () => import('../views/ZeekGame/BloodWheelView.vue')
   },
   {
     path: '/SpinalFluidPongView',
     name: 'spinePong',
-    component: () => import('../views/SpinalFluidPongView.vue')
+    component: () => import('../views/ZeekGame/SpinalFluidPongView.vue')
   },
   {
     path: '/SpinalFluidPongViewVS',
     name: 'spinePongVS',
-    component: () => import('../views/SpinalFluidPongViewVS.vue')
+    component: () => import('../views/ZeekGame/SpinalFluidPongViewVS.vue')
   },
   {
     path: '/PlinkoCounterView',
     name: 'plinko',
-    component: () => import('../views/PlinkoCounterView.vue')
+    component: () => import('../views/ZeekGame/PlinkoCounterView.vue')
   },
   {
     path: '/TwoTruthsOneDieView',
     name: 'TwoTruthsOneDie',
-    component: () => import('../views/TwoTruthsOneDieView.vue')
+    component: () => import('../views/ZeekGame/TwoTruthsOneDieView.vue')
+  },
+  {
+    path: '/ZeekGameView',
+    name: 'ZeekGame',
+    component: () => import('../views/ZeekGameView.vue')
   }
 ]
 
