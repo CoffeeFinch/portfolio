@@ -1,15 +1,13 @@
 <template>
-    <div>
+  <div>
+<Coding />
+  </div>
+</template>
 
-    </div>
-  </template>
-
-<script>
-export default {
-
-}
+<script setup>
+import Coding from '../components/Coding.vue'
 </script>
 
-  <style>
+<style>
 
-  </style>
+</style>

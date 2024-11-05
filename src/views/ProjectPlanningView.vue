@@ -1,13 +1,11 @@
 <template>
     <div>
-
+<ProjectPlanning />
     </div>
   </template>
 
-<script>
-export default {
-
-}
+<script setup>
+import ProjectPlanning from '../components/ProjectPlanning.vue'
 </script>
 
   <style>

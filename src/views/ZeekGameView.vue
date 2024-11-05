@@ -1,5 +1,15 @@
 <template>
+
   <div class="home">
+    <nav>
+    <router-link to="/BloodWheelScore">Blood Wheel Counter</router-link> |
+    <router-link to="/OuchyNumberView">Ouchy Number</router-link> |
+    <router-link to="/PlinkoCounterView">Plink! oh no</router-link> |
+    <router-link to="/SpinalFluidPongView">Spinal Fluid Pong</router-link> |
+    <router-link to="/SpinalFluidPongViewVS">Spinal Fluid Pong VS</router-link> |
+    <router-link to="/TwoTruthsOneDieView">Two Truths One Die</router-link>
+  </nav>
+  <div id="txt">The Price Is Life</div>
     <div class="fadein">
       <img class="logo" id="f3" src="../assets/Logo-Stencil-on.png">
     <img class="logo" id="f2" src="../assets/Logo-Stencil-on.png">
@@ -29,15 +39,13 @@
 }
 .home{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
+  background-color: var(--background-color-primary);
 }
 .fadein img {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center; */
     top:0;
     -webkit-animation-name: fade;
     -webkit-animation-iteration-count: infinite;
@@ -45,6 +53,8 @@
     animation-name: fade;
     animation-iteration-count: infinite;
     animation-duration: 8s;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 @-webkit-keyframes fade {
@@ -75,5 +85,21 @@
 }
 #f4{
   -webkit-animation-delay: -8s;
+}
+
+nav {
+  font-family: love ya like a sister;
+  font-size: 1.5em;
+  background-color: var(--background-color-secondary);
+  width: 100vw;
+  justify-content: center;
+}
+
+#txt {
+  font-family: love ya like a sister;
+  font-size: 8em;
+  color: var(--text-primary-color);
+  width: 80vw;
+  justify-content: center;
 }
 </style>

@@ -1,15 +1,13 @@
 <template>
-    <div>
+  <div>
+<Branding />
+  </div>
+</template>
 
-    </div>
-  </template>
-
-<script>
-export default {
-
-}
+<script setup>
+import Branding from '../components/Branding.vue'
 </script>
 
-  <style>
+<style>
 
-  </style>
+</style>

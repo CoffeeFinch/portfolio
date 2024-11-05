@@ -1,12 +1,7 @@
 <template>
+  <div id="main">
   <nav>
     <router-link to="/">Home | </router-link>
-    <!-- <router-link to="/BloodWheelScore">Blood Wheel Counter | </router-link>
-    <router-link to="/OuchyNumberView">Ouchy Number | </router-link>
-    <router-link to="/PlinkoCounterView">Plink! oh no | </router-link>
-    <router-link to="/SpinalFluidPongView">Spinal Fluid Pong | </router-link>
-    <router-link to="/SpinalFluidPongViewVS">Spinal Fluid Pong VS | </router-link>
-    <router-link to="/TwoTruthsOneDieView">Two Truths One Die |  </router-link> -->
     <router-link to="/IllustrationView">Illustration | </router-link>
     <router-link to="/AboutView">About | </router-link>
     <router-link to="/BrandingView">Branding | </router-link>
@@ -14,11 +9,14 @@
     <router-link to="/ProjectPlanningView">Project Planning | </router-link>
     <router-link to="/UXUIView">UX/UI | </router-link>
     <router-link to="/VideoView">Video | </router-link>
-    <router-link to="/AudioView">Audio </router-link>
+    <router-link to="/AudioView">Audio |</router-link>
+    <router-link to="/ZeekGameView">Zeek Game</router-link>
 
     <theme-button />
   </nav>
   <router-view/>
+</div>
+<footer> Thank you for reading the bottom part. </footer>
 </template>
 
 <script>
@@ -28,8 +26,19 @@ export default {
   components: { ThemeButton },
 }
 </script>
+
 <style>
 
+footer {
+  border: solid var(--text-primary-color);
+  width: 100vw;
+  justify-content: center;
+  background-color: var(--background-color-primary);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: .80em;
+  color: var(--text-primary-color)
+}
 nav {
   display: inline-flex;
   gap: 5px;
@@ -63,7 +72,7 @@ body {
 
 /* Define styles for the root window with dark - mode preference */
 :root.dark-theme {
-  --background-color-primary: #1e1e1e;
+  --background-color-primary: #000000;
   --background-color-secondary: #2d2d30;
   --accent-color: #3f3f3f;
   --text-primary-color: #ddd;
@@ -79,7 +88,8 @@ p {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background-color: var(--background-color-primary);
-  height: 100vh;
+  --width: 100vw !important;
+  --height: 100vh !important;
 }
 
 nav {

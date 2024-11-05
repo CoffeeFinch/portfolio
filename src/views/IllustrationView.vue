@@ -1,9 +1,9 @@
 <template>
-  <div class="Illustration">
-    <BloodWheelScore />
+  <div>
+    <Illustration />
   </div>
 </template>
 
 <script setup>
-import BloodWheelScore from '../components/Illustration.vue'
+import Illustration from '../components/Illustration.vue'
 </script>

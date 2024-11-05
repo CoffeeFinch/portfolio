@@ -1,13 +1,11 @@
 <template>
     <div>
-
+<Video />
     </div>
   </template>
 
-<script>
-export default {
-
-}
+<script setup>
+import Video from '../components/Video.vue'
 </script>
 
 <style>

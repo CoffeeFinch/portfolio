@@ -1,13 +1,11 @@
 <template>
     <div>
-
+<UXUI />
     </div>
   </template>
 
-<script>
-export default {
-
-}
+<script setup>
+import UXUI from '../components/UXUI.vue'
 </script>
 
   <style>

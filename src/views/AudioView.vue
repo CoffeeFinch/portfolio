@@ -1,13 +1,11 @@
 <template>
   <div>
-
+<Audio />
   </div>
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+import Audio from '../components/Audio.vue'
 </script>
 
 <style>
