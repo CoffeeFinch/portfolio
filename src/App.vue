@@ -9,11 +9,11 @@
     <router-link to="/ProjectPlanningView">Project Planning | </router-link>
     <router-link to="/UXUIView">UX/UI | </router-link>
     <router-link to="/VideoView">Video | </router-link>
-    <router-link to="/AudioView">Audio |</router-link>
+    <router-link to="/AudioView">Audio </router-link>
     <theme-button />
   </nav>
   <router-view/>
-  <footer> Thank you for reading the bottom part. </footer>
+  <div id="footer"> Thank you for reading the bottom part. </div>
 </div>
 </template>
 
@@ -33,11 +33,11 @@ export default {
   align-items: center;
 }
 
-footer {
+#footer {
   width: 100%;
   justify-content: center;
-  background-color: var(--footer-color);
   align-items: center;
+  background-color: var(--footer-color);
   padding-top: 2em;
   margin-top: 1em;
   padding-bottom: 2em;

@@ -81,6 +81,11 @@ const routes = [
     path: '/ZeekGameView',
     name: 'ZeekGame',
     component: () => import('../views/ZeekGameView.vue')
+  },
+  {
+    path: '/UglyWebsiteContestView',
+    name: 'UglyWebsiteContest',
+    component: () => import('../views/UglyWebsiteContestView.vue')
   }
 ]
 
