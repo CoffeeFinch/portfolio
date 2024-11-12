@@ -1,7 +1,7 @@
 <template>
   <div id="main">
   <nav>
-    <router-link to="/">Home | </router-link>
+    <router-link to="/HomeView">Home | </router-link>
     <router-link to="/IllustrationView">Illustration | </router-link>
     <router-link to="/AboutView">About | </router-link>
     <router-link to="/BrandingView">Branding | </router-link>
@@ -10,13 +10,11 @@
     <router-link to="/UXUIView">UX/UI | </router-link>
     <router-link to="/VideoView">Video | </router-link>
     <router-link to="/AudioView">Audio |</router-link>
-    <router-link to="/ZeekGameView">Zeek Game</router-link>
-
     <theme-button />
   </nav>
   <router-view/>
+  <footer> Thank you for reading the bottom part. </footer>
 </div>
-<footer> Thank you for reading the bottom part. </footer>
 </template>
 
 <script>
@@ -29,15 +27,24 @@ export default {
 
 <style>
 
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 footer {
-  border: solid var(--text-primary-color);
-  width: 100vw;
+  width: 100%;
   justify-content: center;
-  background-color: var(--background-color-primary);
-  padding-top: 1em;
-  padding-bottom: 1em;
+  background-color: var(--footer-color);
+  align-items: center;
+  padding-top: 2em;
+  margin-top: 1em;
+  padding-bottom: 2em;
   font-size: .80em;
-  color: var(--text-primary-color)
+  color: var(--text-primary-color);
+  position: static;
+  bottom: 0;
 }
 nav {
   display: inline-flex;
@@ -68,6 +75,7 @@ body {
   --accent-color: #cacaca;
   --text-primary-color: #222;
   --element-size: 4rem;
+  --footer-color: rgb(188, 188, 188);
 }
 
 /* Define styles for the root window with dark - mode preference */
@@ -76,6 +84,7 @@ body {
   --background-color-secondary: #2d2d30;
   --accent-color: #3f3f3f;
   --text-primary-color: #ddd;
+  --footer-color: rgb(39, 39, 39);
 }
 
 p {
