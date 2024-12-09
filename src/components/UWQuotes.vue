@@ -1,4 +1,5 @@
 <template>
+  <body>
   <header>
     <nav>
       <ul>
@@ -81,7 +82,7 @@
     <br />
     <footer>
       <div id="buttonholder">
-        <a href="Assets/nature1.jpg" class="button"
+        <a href="../assets/UglyWebsite/nature1.jpg" class="button"
           >Click Here To Look At A Tree</a
         >
       </div>
@@ -89,6 +90,7 @@
       <p>Thank you for reading the bottom part.</p>
     </footer>
   </main>
+</body>
 </template>
 
 <script>
@@ -143,11 +145,11 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #bebebe;
-  /* padding-left: 10px; */
+  padding-left: 10px;
   background-image: url(../assets/UglyWebsite/ill2.png);
-  /* background-repeat: no-repeat;
-    background-attachment: fixed; */
-  background-size: 10% 10%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 header {

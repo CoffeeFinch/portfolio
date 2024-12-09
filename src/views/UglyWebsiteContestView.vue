@@ -1,11 +1,11 @@
 <template>
   <div id="main">
-    <h1>Ugly Website Facts</h1>
-    <UWFacts />
     <h1>Ugly Website Index</h1>
     <UWIndex />
     <h1>Ugly Website Lander</h1>
     <UWLander />
+    <h1>Ugly Website Facts</h1>
+    <UWFacts />
     <h1>Ugly Website Links</h1>
     <UWLinks />
     <h1>Ugly Website Quotes</h1>

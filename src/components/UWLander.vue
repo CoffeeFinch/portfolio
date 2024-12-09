@@ -30,7 +30,7 @@
     <br />
     <footer>
       <div id="buttonholder">
-        <a href="../assets/nature1.jpg" class="button"
+        <a href="../assets/UglyWebsite/nature1.jpg" class="button"
           >Click Here To Look At A Tree</a
         >
       </div>
