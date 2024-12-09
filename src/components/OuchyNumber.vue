@@ -16,38 +16,54 @@
         v-show="showBlack1"
         src="../assets/blkNumbers/blkNum_1.png"
       />
-      <img class="topnums"
-      @click="toggleElements2"
+      <img
+        class="topnums"
+        @click="toggleElements2"
         v-show="showBlack2"
-       src="../assets/blkNumbers/blkNum_2.png" />
-      <img class="topnums"
-      @click="toggleElements3"
+        src="../assets/blkNumbers/blkNum_2.png"
+      />
+      <img
+        class="topnums"
+        @click="toggleElements3"
         v-show="showBlack3"
-         src="../assets/blkNumbers/blkNum_3.png" />
-      <img class="topnums"
-      @click="toggleElements4"
+        src="../assets/blkNumbers/blkNum_3.png"
+      />
+      <img
+        class="topnums"
+        @click="toggleElements4"
         v-show="showBlack4"
-         src="../assets/blkNumbers/blkNum_4.png" />
-      <img class="topnums"
-      @click="toggleElements5"
+        src="../assets/blkNumbers/blkNum_4.png"
+      />
+      <img
+        class="topnums"
+        @click="toggleElements5"
         v-show="showBlack5"
-        src="../assets/blkNumbers/blkNum_5.png" />
-      <img class="topnums"
-      @click="toggleElements6"
+        src="../assets/blkNumbers/blkNum_5.png"
+      />
+      <img
+        class="topnums"
+        @click="toggleElements6"
         v-show="showBlack6"
-         src="../assets/blkNumbers/blkNum_6.png" />
-      <img class="topnums"
-      @click="toggleElements7"
+        src="../assets/blkNumbers/blkNum_6.png"
+      />
+      <img
+        class="topnums"
+        @click="toggleElements7"
         v-show="showBlack7"
-         src="../assets/blkNumbers/blkNum_7.png" />
-      <img class="topnums"
-      @click="toggleElements8"
+        src="../assets/blkNumbers/blkNum_7.png"
+      />
+      <img
+        class="topnums"
+        @click="toggleElements8"
         v-show="showBlack8"
-         src="../assets/blkNumbers/blkNum_8.png" />
-      <img class="topnums"
-      @click="toggleElements9"
+        src="../assets/blkNumbers/blkNum_8.png"
+      />
+      <img
+        class="topnums"
+        @click="toggleElements9"
         v-show="showBlack9"
-         src="../assets/blkNumbers/blkNum_9.png" />
+        src="../assets/blkNumbers/blkNum_9.png"
+      />
     </div>
     <hr class="lines" />
     <div class="arm">
@@ -57,70 +73,94 @@
         <img class="nums" src="../assets/whtNumbers/whtNum_9.png" />
         <img class="spacer" src="../assets/whtNumbers/spacerR.png" />
         <img class="spacer" src="../assets/whtNumbers/spacerL.png" />
-        <img class="nums"
-        @click="toggleElements2"
+        <img
+          class="nums"
+          @click="toggleElements2"
           v-show="!showBlack2"
-          src="../assets/whtNumbers/whtNum_2.png" />
-          <img class="spacer" src="../assets/whtNumbers/spacerR.png" />
-          <img class="spacer" src="../assets/whtNumbers/spacerL.png" />
-        <img class="nums"
-        @click="toggleElements7"
-          v-show="!showBlack7"
-          src="../assets/whtNumbers/whtNum_7.png" />
-          <img class="spacer" src="../assets/whtNumbers/spacerR.png" />
-          <img class="spacer" src="../assets/whtNumbers/spacerL.png" />
-        <img class="nums"
-        @click="toggleElements1"
-          v-show="!showBlack1"
-        src="../assets/whtNumbers/whtNum_1.png" />
+          src="../assets/whtNumbers/whtNum_2.png"
+        />
         <img class="spacer" src="../assets/whtNumbers/spacerR.png" />
         <img class="spacer" src="../assets/whtNumbers/spacerL.png" />
-        <img class="nums"
-        @click="toggleElements6"
-          v-show="!showBlack6"
-        src="../assets/whtNumbers/whtNum_6.png" />
+        <img
+          class="nums"
+          @click="toggleElements7"
+          v-show="!showBlack7"
+          src="../assets/whtNumbers/whtNum_7.png"
+        />
         <img class="spacer" src="../assets/whtNumbers/spacerR.png" />
-
+        <img class="spacer" src="../assets/whtNumbers/spacerL.png" />
+        <img
+          class="nums"
+          @click="toggleElements1"
+          v-show="!showBlack1"
+          src="../assets/whtNumbers/whtNum_1.png"
+        />
+        <img class="spacer" src="../assets/whtNumbers/spacerR.png" />
+        <img class="spacer" src="../assets/whtNumbers/spacerL.png" />
+        <img
+          class="nums"
+          @click="toggleElements6"
+          v-show="!showBlack6"
+          src="../assets/whtNumbers/whtNum_6.png"
+        />
+        <img class="spacer" src="../assets/whtNumbers/spacerR.png" />
       </div>
     </div>
     <hr class="lines" />
     <div class="spleen">
       <div class="spleenTxt">SPLEEN</div>
       <div class="numberFields">
-        <img class="spacer" src="../assets/whtNumbers/spacerL.png" /> <img class="nums"
-        @click="toggleElements5"
+        <img class="spacer" src="../assets/whtNumbers/spacerL.png" />
+        <img
+          class="nums"
+          @click="toggleElements5"
           v-show="!showBlack5"
-        src="../assets/whtNumbers/whtNum_5.png" />        <img class="spacer" src="../assets/whtNumbers/spacerR.png" />
+          src="../assets/whtNumbers/whtNum_5.png"
+        />
+        <img class="spacer" src="../assets/whtNumbers/spacerR.png" />
         <img class="spacer" src="../assets/whtNumbers/spacerL.png" /><img
           class="nums"
           @click="toggleElements0"
           v-show="!showBlack0"
-          src="../assets/whtNumbers/whtNum_0.png" />        <img class="spacer" src="../assets/whtNumbers/spacerR.png" />
-          <img class="spacer" src="assets/whtNumbers/spacerL.png" /><img class="nums"
-        @click="toggleElements8"
+          src="../assets/whtNumbers/whtNum_0.png"
+        />
+        <img class="spacer" src="../assets/whtNumbers/spacerR.png" />
+        <img class="spacer" src="assets/whtNumbers/spacerL.png" /><img
+          class="nums"
+          @click="toggleElements8"
           v-show="!showBlack8"
-          src="../assets/whtNumbers/whtNum_8.png" />        <img class="spacer" src="../assets/whtNumbers/spacerR.png" />
-        </div>
+          src="../assets/whtNumbers/whtNum_8.png"
+        />
+        <img class="spacer" src="../assets/whtNumbers/spacerR.png" />
+      </div>
     </div>
     <hr class="lines" />
 
     <div class="bandaid">
       <img class="bandaidIcon" src="../assets/Band-Aid-icon.png" />
       <div class="bandaidNumberFields">
-        <img class="spacer" src="../assets/whtNumbers/spacerL.png" /> <img class="bandaidNums"
-        @click="toggleElements3"
+        <img class="spacer" src="../assets/whtNumbers/spacerL.png" />
+        <img
+          class="bandaidNums"
+          @click="toggleElements3"
           v-show="!showBlack3"
-          src="../assets/whtNumbers/whtNum_3.png" /><img class="spacer" src="../assets/whtNumbers/spacerR.png" />
-          <img class="decimal"
-        src="../assets/whtNumbers/whtNum_dec.png" />
-        <img class="spacer" src="../assets/whtNumbers/spacerL.png" /> <img class="bandaidNums"
-        @click="toggleElements4"
+          src="../assets/whtNumbers/whtNum_3.png"
+        /><img class="spacer" src="../assets/whtNumbers/spacerR.png" />
+        <img class="decimal" src="../assets/whtNumbers/whtNum_dec.png" />
+        <img class="spacer" src="../assets/whtNumbers/spacerL.png" />
+        <img
+          class="bandaidNums"
+          @click="toggleElements4"
           v-show="!showBlack4"
-        src="../assets/whtNumbers/whtNum_4.png" /><img class="spacer" src="../assets/whtNumbers/spacerR.png" />
-        <img class="spacer" src="../assets/whtNumbers/spacerL.png" /> <img class="bandaidNums"
-        @click="toggleElements9"
+          src="../assets/whtNumbers/whtNum_4.png"
+        /><img class="spacer" src="../assets/whtNumbers/spacerR.png" />
+        <img class="spacer" src="../assets/whtNumbers/spacerL.png" />
+        <img
+          class="bandaidNums"
+          @click="toggleElements9"
           v-show="!showBlack9"
-        src="../assets/whtNumbers/whtNum_9.png" /><img class="spacer" src="../assets/whtNumbers/spacerR.png" />
+          src="../assets/whtNumbers/whtNum_9.png"
+        /><img class="spacer" src="../assets/whtNumbers/spacerR.png" />
       </div>
     </div>
   </div>
@@ -294,7 +334,6 @@ export default {
   padding-top: 1.5vh;
   padding-left: 12vw;
   padding-right: 14vw;
-
 }
 .bandaidNums {
   /* display:flex; */
@@ -306,11 +345,11 @@ export default {
 .bandaidNumberFields {
   display: inline-flex;
   align-items: center;
-  color:yellow;
+  color: yellow;
   background-color: red;
   height: 15vh;
   margin-left: 2vw;
   margin-right: 11vw;
-  padding-left: 19vw; 
+  padding-left: 19vw;
 }
 </style>

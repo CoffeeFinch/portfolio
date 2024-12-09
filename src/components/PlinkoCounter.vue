@@ -5,16 +5,19 @@
     <div>
       <p class="counter">{{ counters[1] }}</p>
       <div class="buttons">
-      <button class="btn" @click="increment1">Increase</button>
-      <button class="btn" @click="decrement1">Decrease</button>
-      <button class="btn" @click="resetall">Reset</button>
-    </div>
+        <button class="btn" @click="increment1">Increase</button>
+        <button class="btn" @click="decrement1">Decrease</button>
+        <button class="btn" @click="resetall">Reset</button>
+      </div>
       <br />
       <div class="plink">
         <div class="plinkHole">
           <img
             class="lePlink"
-            @click="toggleElements1(); decrement1()"
+            @click="
+              toggleElements1();
+              decrement1();
+            "
             v-show="showPlink1"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -26,7 +29,10 @@
           />
           <img
             class="lePlink"
-            @click="toggleElements2(); decrement1()"
+            @click="
+              toggleElements2();
+              decrement1();
+            "
             v-show="showPlink2"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -41,7 +47,10 @@
         <div class="plinkHole">
           <img
             class="lePlink"
-            @click="toggleElements3(); decrement2()"
+            @click="
+              toggleElements3();
+              decrement2();
+            "
             v-show="showPlink3"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -53,7 +62,10 @@
           />
           <img
             class="lePlink"
-            @click="toggleElements4(); decrement2()"
+            @click="
+              toggleElements4();
+              decrement2();
+            "
             v-show="showPlink4"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -68,7 +80,10 @@
         <div class="plinkHole">
           <img
             class="lePlink"
-            @click="toggleElements5(); decrement5()"
+            @click="
+              toggleElements5();
+              decrement5();
+            "
             v-show="showPlink5"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -80,7 +95,10 @@
           />
           <img
             class="lePlink"
-            @click="toggleElements6(); decrement5()"
+            @click="
+              toggleElements6();
+              decrement5();
+            "
             v-show="showPlink6"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -91,7 +109,6 @@
             v-show="!showPlink6"
           />
           5
-
         </div>
         <div class="plinkHole">
           <img
@@ -119,12 +136,14 @@
             v-show="!showPlink8"
           />
           0
-
         </div>
         <div class="plinkHole">
           <img
             class="lePlink"
-            @click="toggleElements9(); decrement10()"
+            @click="
+              toggleElements9();
+              decrement10();
+            "
             v-show="showPlink9"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -136,7 +155,10 @@
           />
           <img
             class="lePlink"
-            @click="toggleElements10(); decrement10()"
+            @click="
+              toggleElements10();
+              decrement10();
+            "
             v-show="showPlink10"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -147,7 +169,6 @@
             v-show="!showPlink10"
           />
           10
-
         </div>
         <div class="plinkHole">
           <img
@@ -175,12 +196,14 @@
             v-show="!showPlink12"
           />
           0
-
         </div>
         <div class="plinkHole">
           <img
             class="lePlink"
-            @click="toggleElements13(); decrement5()"
+            @click="
+              toggleElements13();
+              decrement5();
+            "
             v-show="showPlink13"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -192,7 +215,10 @@
           />
           <img
             class="lePlink"
-            @click="toggleElements14(); decrement5()"
+            @click="
+              toggleElements14();
+              decrement5();
+            "
             v-show="showPlink14"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -203,12 +229,14 @@
             v-show="!showPlink14"
           />
           5
-
         </div>
         <div class="plinkHole">
           <img
             class="lePlink"
-            @click="toggleElements15(); decrement2()"
+            @click="
+              toggleElements15();
+              decrement2();
+            "
             v-show="showPlink15"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -220,7 +248,10 @@
           />
           <img
             class="lePlink"
-            @click="toggleElements16(); decrement2()"
+            @click="
+              toggleElements16();
+              decrement2();
+            "
             v-show="showPlink16"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -231,12 +262,14 @@
             v-show="!showPlink16"
           />
           2
-
         </div>
         <div class="plinkHole">
           <img
             class="lePlink"
-            @click="toggleElements17(); decrement1()"
+            @click="
+              toggleElements17();
+              decrement1();
+            "
             v-show="showPlink17"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -248,7 +281,10 @@
           />
           <img
             class="lePlink"
-            @click="toggleElements18(); decrement1()"
+            @click="
+              toggleElements18();
+              decrement1();
+            "
             v-show="showPlink18"
             src="../assets/Logo-Stencil-off.png"
           />
@@ -259,10 +295,8 @@
             v-show="!showPlink18"
           />
           1
-
         </div>
       </div>
-
     </div>
   </div>
 </template>
@@ -389,12 +423,11 @@ export default {
 </script>
 
 <style scoped>
-
 .main {
   background-color: var(--background-color-primary);
-    padding-bottom: 2em;
-    color: var(--text-primary-color);
-  }
+  padding-bottom: 2em;
+  color: var(--text-primary-color);
+}
 
 .title {
   font-family: monoton;
@@ -412,16 +445,16 @@ export default {
   margin-bottom: -17vh;
 }
 .btn {
-    font-family: tektur;
-    /* font-weight: bolder; */
-    margin-left: 2vw;
-    margin-right: 2vw;
-    width: 8em;
-    height: 2em;
-    font-size: 1em;
-    background-color: rgb(78, 0, 0);
-    color: white;
-  }
+  font-family: tektur;
+  /* font-weight: bolder; */
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 8em;
+  height: 2em;
+  font-size: 1em;
+  background-color: rgb(78, 0, 0);
+  color: white;
+}
 .lePlink {
   width: 10.5vw;
 }
@@ -433,7 +466,7 @@ export default {
   border-bottom-style: solid;
   border-color: white;
   font-family: Monoton;
-  font-size:4em;
+  font-size: 4em;
 }
 .plink {
   display: flex;
