@@ -307,6 +307,8 @@ form {
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  border-style: solid;
+  border-color: rgb(255, 74, 246);
 }
 
 nav {

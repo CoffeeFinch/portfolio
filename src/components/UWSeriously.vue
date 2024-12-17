@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main">
     <body>
       <header>
         <nav>
@@ -15,7 +15,7 @@
         <h4>I'm only technically from Pittsburgh</h4>
       </header>
 
-      <main>
+      <div>
         <img
           id="image"
           src="https://images.pexels.com/photos/12493795/pexels-photo-12493795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -56,7 +56,8 @@
           </p>
           <br />
         </section>
-      </main>
+      </div>
+      <!-- <br />
       <br />
       <br />
       <br />
@@ -97,8 +98,7 @@
       <br />
       <br />
       <br />
-      <br />
-      <br />
+      <br /> -->
       <footer>
         <div id="buttonholder">
           <a href="../assets/UglyWebsite/nature1.jpg" class="button"
@@ -161,7 +161,7 @@
   src: url(../assets/Fonts/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf);
 }
 
-body {
+/* body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #bebebe;
   padding-left: 10px;
@@ -169,10 +169,16 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-}
+  max-width: 80vw;
+} */
 
-header {
+/* header {
   background-image: url(../assets/UglyWebsite/nature1.jpg);
+} */
+#main {
+  max-width: 80vw;
+  border-style: solid;
+  border-color: rgb(255, 74, 246);
 }
 
 h1 {
@@ -194,18 +200,18 @@ h4 {
   text-align: center;
 }
 
-h2 {
+/* h2 {
   font-family: "Times New Roman", Times, serif;
   font-size: 2em;
   text-decoration-line: underline;
   line-height: 2px;
-}
+} */
 
-h3 {
+/* h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   line-height: 2px;
-}
+} */
 
 img {
   display: block;
@@ -227,13 +233,13 @@ figcaption {
   text-align: center;
   background-color: black;
 }
-table {
+/* table {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-table,
+} */
+/* table,
 th,
 td {
   border: 1px solid;
@@ -251,14 +257,15 @@ th {
 
 tr:hover {
   background-color: yellow;
-}
+} */
+
 li:hover {
   background-color: rgba(229, 255, 0, 0.2);
 }
 
-q {
+/* q {
   font-style: italic;
-}
+} */
 
 a:link {
   color: white;
@@ -270,15 +277,15 @@ a:visited {
 
 footer {
   font-family: monospace;
-  font-size: 20em;
+  font-size: .2em;
   line-height: 2px;
   text-align: center;
   color: white;
 }
 
-form {
+/* form {
   background-color: thistle;
-}
+} */
 
 /* #facts-section {
     background-image: url(/img/FuckYou.jpg);
@@ -299,19 +306,21 @@ form {
 
 #seriously-though {
   background-color: white;
+  margin: 22px;
 }
 
 p {
   margin: 22px;
+  max-width: 80vw;
 }
 
-#links-section {
-  /* background-image: url(/img/HateFlowers.jpg); */
+/* #links-section {
+  background-image: url(/img/HateFlowers.jpg);
   background-size: stretch;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
+} */
 
 nav {
   float: center;

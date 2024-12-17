@@ -67,6 +67,8 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  border-style: solid;
+  border-color: rgb(255, 74, 246);
 }
 
 header {

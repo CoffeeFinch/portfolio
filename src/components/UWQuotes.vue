@@ -150,6 +150,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  border-style: solid;
+  border-color: rgb(255, 74, 246);
 }
 
 header {
@@ -266,7 +268,7 @@ a:visited {
 }
 
 #quotes-section {
-  width: 100vw;
+  /* width: 100vw; */
   color: rgb(229, 255, 0);
   background-color: rgba(0, 0, 0, 0.384);
   background-position: center;
